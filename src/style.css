@@ -10,6 +10,7 @@ body {
   color: #333;
   margin: 0;
   padding: 0;
+  background: #1a1a2e; /* Fallback background color */
 }
 
 .container {

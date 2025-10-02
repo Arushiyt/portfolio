@@ -1,5 +1,5 @@
 <template>
-  <div id="app" :style="{ background: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url(/background.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }">
+  <div id="app" :style="{ background: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #1a1a2e url(/background.jpg) center/cover no-repeat fixed', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }">
     <nav class="navbar">
       <div class="nav-container">
         <ul class="nav-links">
