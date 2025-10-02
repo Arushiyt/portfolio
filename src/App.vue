@@ -1,5 +1,5 @@
 <template>
-  <div id="app" :style="{ '--background-image': `url(${backgroundImage})` }">
+  <div id="app" :style="{ '--background-image': 'url(/background.jpg)' }">
     <nav class="navbar">
       <div class="nav-container">
         <ul class="nav-links">
@@ -29,12 +29,12 @@
         <div class="about-layout">
           <!-- Profile Picture on Left with Resume Button -->
           <div class="profile-section">
-            <img :src="headshotImage" alt="Profile" class="profile-image" />
+            <img :src="'/headshot.jpg'" alt="Profile" class="profile-image" />
             <button @click="toggleResumeModal" class="resume-btn-below">
               {{ showResumeModal ? 'Close Preview' : 'View Resume' }}
             </button>
             <a
-              href="resumePDF"
+              href="/Resume_ArushiYanaThakur.pdf"
               download
               class="download-btn-below"
               v-if="showResumeModal"
@@ -88,7 +88,7 @@
         <div class="modal-content" @click.stop>
           <button class="close-btn" @click="closeResumeModal">&times;</button>
           <iframe
-            :src="resumePDF"
+            :src="'/Resume_ArushiYanaThakur.pdf'"
             class="resume-iframe"
           ></iframe>
         </div>
@@ -141,6 +141,7 @@
 
     <!-- Contact Section -->
     <section id="contact" class="section">
+      <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-content">
           <p
@@ -195,10 +196,6 @@
 </template>
 
 <script>
-import headshotImage from '@/assets/headshot.jpg';
-import resumePDF from '@/assets/Resume_ArushiYanaThakur.pdf';
-import backgroundImage from '@/assets/background.jpg';
-
 export default {
   name: 'App',
   data() {
