@@ -1,5 +1,5 @@
 <template>
-  <div id="app" :style="{ '--background-image': 'url(/background.jpg)' }">
+  <div id="app" :style="{ background: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) url(/background.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }">
     <nav class="navbar">
       <div class="nav-container">
         <ul class="nav-links">
