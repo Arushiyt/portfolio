@@ -25,7 +25,7 @@
     <!-- About Section -->
     <section id="about" class="section">
       <div class="container">
-        <h2 class="section-title">About Me</h2>
+        <h2 class="section-title">ABOUT ME</h2>
         <div class="about-layout">
           <!-- Profile Picture on Left with Resume Button -->
           <div class="profile-section">
@@ -98,7 +98,7 @@
     <!-- Experience Section -->
     <section id="experience" class="section">
       <div class="container">
-        <h2 class="section-title">Experience</h2>
+        <h2 class="section-title">EXPERIENCE</h2>
         <div class="timeline">
           <div
             class="timeline-item"
@@ -120,7 +120,7 @@
     <!-- Projects Section -->
     <section id="projects" class="section">
       <div class="container">
-        <h2 class="section-title">Projects</h2>
+        <h2 class="section-title">PROJECTS</h2>
         <div class="projects-grid">
           <div
             class="project-card"
@@ -142,7 +142,7 @@
     <!-- Contact Section -->
     <section id="contact" class="section">
       <div class="container">
-        <h2 class="section-title">Contact</h2>
+        <h2 class="section-title">CONTACT</h2>
         <div class="contact-content">
           <p
             style="
@@ -274,7 +274,7 @@ export default {
           title: 'Software Developer',
           company: 'Corevation',
           description:
-            'Led front-end development and product enhancements using Vue.js and Python, improving content scheduling efficiency, streamlining approvals, and integrating AI-powered features to boost user engagement across platformsc.',
+            'Led front-end development and product enhancements using Vue.js and Python, improving content scheduling efficiency, streamlining approvals, and integrating AI-powered features to boost user engagement across platforms.',
         },
         {
           date: 'August 2024 - May 2025',
